@@ -46,17 +46,17 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            // 'host' => env('DB_HOST', '127.0.0.1'),
-            'host' => "us-cdbr-iron-east-02.cleardb.net",
+            'host' => env('DB_HOST', '127.0.0.1'),
+          //  'host' => "us-cdbr-iron-east-02.cleardb.net",
             'port' => env('DB_PORT', '3306'),
             // 'database' => 'product',
             // 'username' => 'muhammed',
             // 'password' => 'muhammed',
 
 
-            'database' => 'heroku_c0fa73536116770',
-            'username' => 'b4f32c503893e6',
-            'password' => '92de0b21',
+            'database' => 'ab54412_flutterapitut',
+            'username' => 'ab54412_fluttert',
+            'password' => 'muhammed',
 
 
             'unix_socket' => env('DB_SOCKET', ''),
